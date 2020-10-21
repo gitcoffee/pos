@@ -1,0 +1,59 @@
+@import "icons";
+
+.btn.btn-dark {
+    background: #511C29;
+    color: #ffffff;
+}
+
+.actions {
+    .action {
+        display: inline-flex;
+    }
+}
+
+.image-wrapper {
+    .image-item {
+        .remove-image {
+            left: 0;
+        }
+    }
+}
+
+.mega-filter {
+    width: 260px !important;
+    margin: 0px 0px 0px 30px;
+}
+
+.mega-btn-group {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table-circle {
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #000;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.table-square {
+    text-align: center;
+    border: 2px solid #000;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.table-curved-square {
+    border-radius: 10%;
+    text-align: center;
+    border: 2px solid #000;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    padding: 10px 0px;
+}

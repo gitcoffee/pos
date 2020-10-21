@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="{{ bagisto_asset('vendor/webkul/pos/assets/css/pos-admin.css') }}">

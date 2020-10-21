@@ -1,0 +1,19 @@
+// Mixins
+@mixin background($background...) {
+    -webkit-background: linear-gradient($background);
+    -moz-background: linear-gradient($background);
+    background: linear-gradient($background);
+}
+
+@mixin box-shadow($shadows...) {
+    -webkit-box-shadow: $shadows;
+    -moz-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
